@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 model_fname = "model.save"
-MODEL_NAME = "text_class_decision_tree_sklearn"
+MODEL_NAME = "text_class_base_decision_tree_sklearn"
 
 
 class Classifier(): 

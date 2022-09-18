@@ -5,8 +5,8 @@
     "default": 5,
     "type": "int",
     "search_type": "uniform",
-    "range_low": 2,
-    "range_high": 10,
+    "range_low": 3,
+    "range_high": 6,
     "run_HPO": true
   },
   {
@@ -26,7 +26,7 @@
     "type": "int",
     "search_type": "uniform",
     "range_low": 1,
-    "range_high": 10,
+    "range_high": 5,
     "run_HPO": true
   }
 ]
