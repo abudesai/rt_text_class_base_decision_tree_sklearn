@@ -46,7 +46,7 @@ class ModelServer:
         # transform data - returns a dict of X (transformed input features) and Y(targets, if any, else None)
         proc_data = preprocessor.transform(data)
         # Grab input features for prediction
-        pred_X, pred_ids = proc_data["X"].astype(np.float), proc_data["ids"]
+        pred_X, pred_ids = proc_data["X"].astype(np.float16), proc_data["ids"]
         # make predictions
         if return_probs:
             preds = model.predict_proba(pred_X)
