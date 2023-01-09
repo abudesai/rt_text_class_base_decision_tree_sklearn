@@ -22,7 +22,6 @@ ENV PYTHONDONTWRITEBYTECODE=TRUE
 ENV PATH="/opt/app:${PATH}"
 
 
-
 RUN chmod +x train &&\
     chmod +x predict &&\
     chmod +x tune &&\

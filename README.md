@@ -1,6 +1,8 @@
 Decision Tree Classifier in SciKitLearn Using Tf-IDF preprocessing for Text Classification - Base problem category as per Ready Tensor specifications.
 
+- text classification
 - decision tree
+- tf-idf
 - sklearn
 - python
 - pandas
@@ -10,7 +12,6 @@ Decision Tree Classifier in SciKitLearn Using Tf-IDF preprocessing for Text Clas
 - nginx
 - uvicorn
 - docker
-- text classification
 
 This is a Text Classifier that uses a Decision Tree Classifier implemented through SciKitLearn.
 
